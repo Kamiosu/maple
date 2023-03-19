@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Frontpage from './Frontpage';
+import Papa from 'papaparse';
+import React, { useState, useEffect } from 'react';
+import LocData from "./locations.csv"
 
 
 function App() {
@@ -23,8 +26,42 @@ function App() {
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
+      <Address/>
     </div>
   );
 }
+
+
+function Address () { 
+  const [data, setData] = useState([]); 
+  useEffect(() => { 
+    Papa.parse(LocData, {  
+      download: true, 
+      delimiter:',', 
+      complete: (results) => { 
+        // for loop with length of results.data
+         for (let i = 0; i < results.data.length; i++) {
+          console.log(results.data[i][1]);
+        }
+
+        
+      }, 
+
+      
+    });
+
+  }, []); 
+  return ( 
+    <div> 
+      {data.map((row) => ( 
+        <div> 
+          <p>{row.Location}</p> 
+          <p>{row.Rank}</p> 
+        </div> 
+      ))} 
+    </div> 
+  );
+}
+
 
 export default App;
