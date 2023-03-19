@@ -41,7 +41,7 @@ function Address () {
       complete: (results) => { 
         // for loop with length of results.data
          for (let i = 0; i < results.data.length; i++) {
-          console.log(results.data[i][1]);
+          let result = results.data[i][1];
         }
 
         
