@@ -1,6 +1,7 @@
 import React from 'react';
 import { useMemo } from "react";
 import ParsedData from './ParsedData';
+
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 // function Map(){ 
@@ -25,7 +26,7 @@ export default function Frontpage(props) {
         <div className="tabemono flex flex-col bg-[rgb(255,240,159)] relative overflow-hidden">
             <div className="xl:w-[90.27%] lg:w-[92.52%] md:w-[94.29%] sm:w-[95.65%] xs:w-[96.7%] xxs:w-[97.51%] tn:w-[98.12%] flex flex-col w-[87.43%] relative grow my-[76px] mx-auto">
                 <div className="flex flex-col bg-[rgb(27,27,30)] rounded-[25px] relative">
-                    <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-normal text-[64px] leading-[1.15] font-GermaniaOne text-white tracking-[0px] w-[19.06%] relative grow mt-1.5 mx-auto mb-0.5">
+                    <h1  className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-normal text-[64px] leading-[1.15] font-GermaniaOne text-white tracking-[0px] w-[19.06%] relative grow mt-1.5 mx-auto mb-0.5">
                         Tabemono
                     </h1>
                 </div>
@@ -70,5 +71,7 @@ export default function Frontpage(props) {
         </div>
     );
 }
+
+
 
 Frontpage.inStorybook = true;

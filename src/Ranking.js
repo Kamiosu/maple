@@ -3,6 +3,7 @@ import LocData from "./locations.csv"
 import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
 import ParsedData from './ParsedData';
+import Button from 'react-bootstrap/Button';
 
 function Card(props) {
     const { name, address, distance, severity } = props.data;
@@ -104,7 +105,12 @@ export default function Ranking(props) {
                 </h1>
 
                 <div className="flex flex-col bg-[rgb(217,217,217)] rounded-[30px] relative mt-[38px] mx-0 mb-0 overflow-auto max-h-[600px]">
+                    <div className='ml-20 mt-4'>
+                        <Button variant="dark" className='mx-2'>Sort by Vicinity</Button>
+                        <Button variant="dark" className='mx-2' >Sort by Severity</Button>
+                    </div>
                     <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
+
                         {
                             dataArray.map((dataArray, index) => (
                                 <Card key={index} data={dataArray} />
