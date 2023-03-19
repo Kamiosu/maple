@@ -5,13 +5,15 @@ import React, { useState, useEffect } from 'react';
 
 function Card(itemData) {
     return (
-        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
+        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0 relative grow mt-[20px]">
             <div className="bg-[rgb(150,3,26)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
             {/* Add data from itemData to div */}
             <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
-                <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-[rgb(150,3,26)] tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
-                    {itemData.data}
-                </h1>
+            <h1 className="lg:text-[56px] md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-[rgb(150,3,26)] tracking-[0px] w-[80.32%] relative my-0 text-left">
+                {itemData.data}
+            </h1>
+
+
             </div>
         </div>
     );
@@ -27,14 +29,14 @@ function Address () {
             complete: (results) => { 
                 let dataArray = [];
                 for (let i = 1; i < results.data.length; i++) {
-                    let result = results.data[i][1];
+                    let result = results.data[i][0];
                     let severity = results.data[i][2];
                     let addressArray = result.split("\n"); // split the address by newline character
                     let street = addressArray[0]; // first value is street address
                     let cityProvincePostal = addressArray[1]; // second value is city, province, and postal code
                     let distance = addressArray[2]; // third value is distance
                     // add data to array 
-                    dataArray.push(street + " " + cityProvincePostal + " " + distance + " " + severity)
+                    dataArray.push(result)
                 }
                 setData(dataArray);
             }, 
