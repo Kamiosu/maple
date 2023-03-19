@@ -1,4 +1,4 @@
-﻿original_address,lat,lon,formatted,name,housenumber,street,postcode,district,suburb,city,county,state,state_code,country,country_code,confidence,confidence_city_level,confidence_street_level,attribution,attribution_license,attribution_url
+﻿original_address,lat,lng,formatted,name,housenumber,street,postcode,district,suburb,city,county,state,state_code,country,country_code,confidence,confidence_city_level,confidence_street_level,attribution,attribution_license,attribution_url
 "405 Josephine St Unit D
 Wingham Ontario N0G 2W0",43.89097388,-81.30940924666666,"405 Josephine Street, North Huron, ON N0G 2W0, Canada",,405,Josephine Street,N0G 2W0,,,North Huron,Huron County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
 "6 May St

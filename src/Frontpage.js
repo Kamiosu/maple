@@ -2,7 +2,7 @@ import React from 'react';
 import ParsedData from './ParsedData';
 import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker, LoadScript } from "@react-google-maps/api";
-
+import ParsedMarkerData from './ParsedMarkerData';
 
 function Card(props) {
     const { name, address, distance, severity } = props.data;
@@ -23,6 +23,8 @@ function Card(props) {
 }
 
 function Map() {
+    const longLatData = ParsedMarkerData();
+    console.log(longLatData)
     const mapStyles = {
         height: "85vh",
         width: "100%",
@@ -32,14 +34,22 @@ function Map() {
         lat: 43.004592,
         lng: -81.276454,
     };
+    
 
     return (
         <LoadScript googleMapsApiKey="AIzaSyCk6K7fD5wkj7XOwGDi0HA-tE1GlNWuCPw">
-            <GoogleMap
-                mapContainerStyle={mapStyles}
-                zoom={13}
-                center={defaultCenter}
-            />
+            <GoogleMap mapContainerStyle={mapStyles} zoom={10} center={defaultCenter} >
+
+                {   
+                    
+                    longLatData.map((cords, index) => (
+                        <Marker key={index} position={cords} />
+                        
+                    ))
+                    
+                }
+            </GoogleMap>
+
         </LoadScript>
     );
 }
@@ -61,7 +71,7 @@ export default function Frontpage(props) {
 
                 <div className="flex items-center relative mt-8 mx-0 mb-0">
                     <div className="flex flex-col relative w-[100%] mt-[30px] ">
-                        <Map/>
+                        <Map />
                     </div>
                     <div className="flex flex-col bg-gradient-to-br from-cyan-500 to-black text-white p-4 rounded-[30px] w-[40.43%] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative mt-8 mr-0 mb-0 ml-[5.57%]">
                         <div className="overflow-auto max-h-[750px] mt-[-24px] mb-[-24px]">
