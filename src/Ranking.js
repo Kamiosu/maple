@@ -79,7 +79,7 @@ export default function Ranking(props) {
         console.log('Working')
         setSortedData(sorted);
     };
-    
+
     const handleSortByProximity = () => {
         
         console.log('Working')
@@ -94,7 +94,7 @@ export default function Ranking(props) {
                 </h1>
 
                 <div className="flex flex-col bg-gradient-to-r from-blue-500 to-green-500 text-white p-4 rounded-[30px] relative mt-[38px] mx-0 mb-0 overflow-auto max-h-[600px]">
-                    <div className='ml-20 mt-4 '>
+                    <div className='ml-[36%]'>
                         <Button onClick={handleSortByProximity}  variant="dark" className='mx-2'>Sort by Vicinity</Button>
                         <Button onClick={handleSortBySeverity} variant="dark" className='mx-2' >Sort by Severity</Button>
                     </div>
