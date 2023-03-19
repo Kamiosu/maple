@@ -4,17 +4,36 @@ import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
 
 function Card(itemData) {
-    console.log(itemData.data)
     return (
-        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
-            <div className="bg-[rgb(150,3,26)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
-            {/* Add data from itemData to div */}
-            <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
-                <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-[rgb(150,3,26)] tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
-                    {itemData.data}
+        <div className="flex items-center relative mt-[53px] mx-0 mb-0">
+            <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[870px]">
+              <div className="lg:mt-[18px] lg:mr-7 lg:mb-[22px] lg:ml-[27px] md:mt-[18px] md:mr-6 md:mb-[22px] md:ml-5 sm:mt-[18px] sm:mr-5 sm:mb-[22px] sm:ml-4 xs:mt-[18px] xs:mr-4 xs:mb-[22px] xs:ml-3 tn:mt-[18px] tn:mx-3 tn:mb-[22px] flex flex-col relative grow mt-[18px] mr-[33px] mb-[22px] ml-[27px]">
+                <h1 className="lg:text-[28px] lg:text-left md:text-[24px] sm:text-[20px] tn:text-[16px] font-[837] text-[32px] leading-[1.18] font-Roboto text-black tracking-[0px] relative">
+                  London Food Drive
                 </h1>
+                <h1 className="lg:text-[28px] lg:text-left md:text-[24px] sm:text-[20px] tn:text-[16px] font-[837] text-[32px] leading-[1.18] font-Roboto text-black tracking-[0px] relative mt-[5px] mx-0 mb-0">
+                  London Food Drive London Food Drive{' '}
+                </h1>
+              </div>
             </div>
-          </div>
+
+            <div className="flex flex-col bg-[rgb(217,217,217)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+              <div className="lg:mt-[9.29px] lg:mx-4 lg:mb-[18px] sm:mt-[9.29px] sm:mx-3 sm:mb-[18px] xxs:mt-[9.29px] xxs:mx-2 xxs:mb-[18px] flex flex-col relative grow mt-[9.29px] mr-[21.33px] mb-[18px] ml-[22px]">
+                <h1 className="lg:text-[36px] md:text-[32px] sm:text-[28px] xs:text-[24px] tn:text-[20px] flex justify-center font-[837] text-[40px] leading-[1.17] font-Roboto text-black text-center tracking-[0px] relative mt-0 mr-0 mb-0 ml-[0.67px]">
+                  111
+                </h1>
+                <h1 className="lg:text-[36px] md:text-[32px] sm:text-[28px] xs:text-[24px] tn:text-[20px] flex justify-center font-[837] text-[40px] leading-[1.17] font-Roboto text-black text-center tracking-[0px] relative mt-[4.71px] mr-[0.67px] mb-0 ml-0">
+                  km
+                </h1>
+              </div>
+            </div>
+
+            <div className="flex flex-col bg-[rgb(150,3,26)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+              <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
+                76%
+              </h1>
+            </div>
+        </div>
     );
 }
 // Create iterative function 
@@ -58,30 +77,11 @@ export default function Ranking(props) {
                 <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-white tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
                     Ranking
                 </h1>
-                
+
                 <div className="flex flex-col bg-[rgb(217,217,217)] rounded-[30px] relative mt-[38px] mx-0 mb-0 overflow-auto max-h-[600px]">
-                    
-                <div className="lg:my-0 lg:mx-4 md:my-0 md:mx-3 xs:flex-wrap xs:justify-start xs:content-start xs:gap-y-4 xs:my-0 xs:mx-2 flex items-center relative my-0 mx-5">
-            <div className="xs:flex-[0_0_calc(1/1_*_100%_-_0px_/_1)] xs:min-w-[unset] flex flex-col relative grow basis-[133px]">
-              <div className="flex flex-col bg-[rgb(217,217,217)] rounded-[18.5px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative grow">
-                <div className="font-[771] text-[14px] leading-[1.21] font-Inter text-black tracking-[0px] relative grow mt-[9px] mr-1.5 mb-[9px] ml-[7px]">
-                  Sort by proximity
-                </div>
-              </div>
-            </div>
-            <div className="xs:hidden basis-[49px]" />
-            <div className="xs:flex-[0_0_calc(1/1_*_100%_-_0px_/_1)] xs:min-w-[unset] flex flex-col relative grow basis-[133px]">
-              <div className="flex flex-col bg-[rgb(217,217,217)] rounded-[18.5px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative grow">
-                <div className="sm:mt-[9px] sm:mx-1 sm:mb-[7px] font-[771] text-[14px] leading-[1.21] font-Inter text-black tracking-[0px] relative grow min-h-[21px] mt-[9px] mx-[11px] mb-[7px]">
-                  Sort by severity
-                </div>
-              </div>
-            </div>
-          </div>
                     <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
                         {
                             dataArray.map((itemData, index) => (
-                                
                                 <Card key={index} data={itemData} />
                             ))
                         }
