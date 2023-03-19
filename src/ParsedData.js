@@ -1,4 +1,5 @@
 import LocData from "./locations.csv"
+import latData from "./long-lat.csv"
 import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
 
