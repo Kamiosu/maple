@@ -2,6 +2,7 @@ import App from './App';
 import LocData from "./locations.csv"
 import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
+import ParsedData from './ParsedData';
 
 function Card(props) {
     const { name, address, distance, severity } = props.data;
@@ -61,44 +62,44 @@ function Card(props) {
 }
 
 // Create iterative function 
-function Address() {
-    const [data, setData] = useState([]);
+// function Address() {
+//     const [data, setData] = useState([]);
 
-    useEffect(() => {
-        Papa.parse(LocData, {
-            download: true,
-            delimiter: ',',
-            header: true,
-            dynamicTyping: true,
-            complete: function (results) {
-                const formattedData = results.data.map((row) => {
-                    return {
-                        name: row.name, // Use header names instead of index positions
-                        address: row.address,
-                        distance: row.distance_km,
-                        severity: row.severity,
-                    };
-                });
-                setData(formattedData);
-            },
-        });
-    }, []);
+//     useEffect(() => {
+//         Papa.parse(LocData, {
+//             download: true,
+//             delimiter: ',',
+//             header: true,
+//             dynamicTyping: true,
+//             complete: function (results) {
+//                 const formattedData = results.data.map((row) => {
+//                     return {
+//                         name: row.name, // Use header names instead of index positions
+//                         address: row.address,
+//                         distance: row.distance_km,
+//                         severity: row.severity,
+//                     };
+//                 });
+//                 setData(formattedData);
+//             },
+//         });
+//     }, []);
 
-    // Use `data` state variable wherever needed in the component
-    // ...
-    return data;
-}
+//     // Use `data` state variable wherever needed in the component
+//     // ...
+//     return data;
+// }
 
 
 export default function Ranking(props) {
     //Change
-    const dataArray = Address();
+    const dataArray = ParsedData();
     console.log({ dataArray })
 
     return (
-        <div className="ranking flex flex-col bg-[rgb(56,56,81)] relative overflow-hidden">
+        <div className="ranking flex flex-col bg-[#FFF09F] relative overflow-hidden">
             <div className="xl:w-[75.6%] lg:w-[88.8%] md:w-[91.36%] sm:w-[93.37%] xs:w-[94.95%] xxs:w-[96.16%] tn:w-[97.09%] flex flex-col w-[81.68%] relative grow mt-6 mx-auto mb-[123px]">
-                <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-white tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
+                <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-black tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
                     Ranking
                 </h1>
 

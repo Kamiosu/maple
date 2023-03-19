@@ -1,5 +1,6 @@
 import React from 'react';
 import { useMemo } from "react";
+import ParsedData from './ParsedData';
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 // function Map(){ 
@@ -20,76 +21,47 @@ export default function Frontpage(props) {
 
 
     return (
-        <div className="frontpage flex flex-col bg-[rgb(56,56,81)] relative overflow-hidden">
-            <div className="xl:w-[90.27%] lg:w-[92.52%] md:w-[94.29%] sm:w-[95.65%] xs:w-[96.7%] xxs:w-[97.51%] tn:w-[98.12%] flex flex-col w-[87.43%] relative grow mt-[37px] mx-auto mb-[118px]">
-                <h1 className="lg:text-[56px] md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] xxs:w-[37.13%] tn:text-[28px] tn:w-[44.04%] flex justify-end font-semibold text-[64px] leading-[1.2] font-Inter text-white text-right tracking-[0px] w-[30.71%] relative my-0 mx-auto">
-                    App Name
-                </h1>
 
-                <div className="flex items-center gap-x-[18px] relative mt-[34px] mx-0 mb-0">
-                    <div className="flex flex-col relative basis-[915px]">
-                        <div className="flex flex-col relative grow">
-                            <div className="flex flex-col relative grow">
-                                <div className="flex flex-col relative grow">
+        <div className="tabemono flex flex-col bg-[rgb(255,240,159)] relative overflow-hidden">
+            <div className="xl:w-[90.27%] lg:w-[92.52%] md:w-[94.29%] sm:w-[95.65%] xs:w-[96.7%] xxs:w-[97.51%] tn:w-[98.12%] flex flex-col w-[87.43%] relative grow my-[76px] mx-auto">
+                <div className="flex flex-col bg-[rgb(27,27,30)] rounded-[25px] relative">
+                    <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-normal text-[64px] leading-[1.15] font-GermaniaOne text-white tracking-[0px] w-[19.06%] relative grow mt-1.5 mx-auto mb-0.5">
+                        Tabemono
+                    </h1>
+                </div>
 
-                                    <div className="flex flex-col w-[84px] h-[117px] absolute bottom-[113px] right-[215px]">
-                                        <div className="flex flex-col relative">
 
-                                        </div>
-                                        <div className="flex flex-col relative">
-
-                                        </div>
-                                    </div>
+                <div className="flex flex-col bg-[rgb(151,220,229)] rounded-[30px] w-[29.43%] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative mt-8 mr-0 mb-0 ml-[70.57%]">
+                    <div className="overflow-auto max-h-[550px] mt-10">
+                        <div className="md:mt-[18px] md:mx-3 md:mb-[57px] xs:mt-[18px] xs:mx-2 xs:mb-[57px] flex flex-col relative grow mt-[38px] mx-[19px] mb-[57px]">
+                            <div className="flex items-center relative">
+                                <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[325px]">
+                                    <h5 className="lg:mt-[19px] lg:mr-[27px] lg:mb-[13px] lg:ml-6 md:mt-[19px] md:mx-5 md:mb-[13px] sm:mt-[19px] sm:mx-4 sm:mb-[13px] xs:mt-[19px] xs:mr-3 xs:mb-[13px] xs:ml-4 xxs:mt-[19px] xxs:mx-3 xxs:mb-[13px] font-[837] text-[15px] leading-[1.2] font-Roboto text-black tracking-[0px] relative grow min-h-[70px] mt-[19px] mr-[27px] mb-[13px] ml-7">
+                                        London Food Drive Address, Is going to be displayed here.
+                                    </h5>
                                 </div>
 
-                                <div className="flex flex-col w-[84px] h-[117px] absolute top-[298px] right-[322px]">
-                                    <div className="flex flex-col relative">
-
-                                    </div>
-                                    <div className="flex flex-col relative">
-
-                                    </div>
-                                </div>
+                                <div className="bg-[rgb(150,3,26)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[26px] min-h-[102px]" />
                             </div>
 
-                            <div className="flex flex-col w-[84px] h-[114px] absolute top-[225px] left-[-100vw] right-[-100vw] my-0 mx-auto">
-                                <div className="flex flex-col relative">
-
-                                </div>
-                                <div className="flex flex-col relative">
-
-                                </div>
+                            <div className="flex items-center relative mt-[23px] mx-0 mb-0">
+                                <div className="bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[325px] min-h-[102px]" />
+                                <div className="bg-[rgb(150,3,26)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[26px] min-h-[102px]" />
                             </div>
-                        </div>
 
-                        <div className="flex flex-col w-[84px] h-[117px] absolute top-[181px] left-[221px]">
-                            <div className="flex flex-col relative">
-
+                            <div className="flex items-center relative mt-9 mx-0 mb-0">
+                                <div className="bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[325px] min-h-[102px]" />
+                                <div className="bg-[rgb(150,3,26)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[26px] min-h-[102px]" />
                             </div>
-                            <div className="flex flex-col relative">
 
+                            <div className="flex items-center relative mt-9 mx-0 mb-0">
+                                <div className="bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[325px] min-h-[102px]" />
+                                <div className="bg-[rgb(150,3,26)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[26px] min-h-[102px]" />
                             </div>
-                        </div>
-                    </div>
 
-                    <div className="flex flex-col bg-[rgb(158,228,147)] rounded-[30px] relative basis-[389px]">
-                        <div className="md:mt-[18px] md:mx-3 md:mb-[108px] xs:mt-[18px] xs:mx-2 xs:mb-[108px] flex flex-col relative grow mt-[18px] mx-[19px] mb-[108px]">
-                            <div className="overflow-auto max-h-[500px]">
-                                <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative">
-                                    <div className="bg-[rgb(197,0,31)] rounded-[13px] w-[7.41%] relative grow min-h-[100px] mt-0 mr-0 mb-0.5 ml-[92.59%]" />
-                                </div>
-
-                                <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-5 mx-0 mb-0">
-                                    <div className="bg-[rgb(255,122,0)] rounded-[13px] w-[7.41%] relative grow min-h-[100px] mt-0 mr-0 mb-0.5 ml-[92.59%]" />
-                                </div>
-
-                                <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-5 mx-0 mb-0">
-                                    <div className="bg-[rgb(255,199,0)] rounded-[13px] w-[7.41%] relative grow min-h-[100px] mt-0 mr-0 mb-0.5 ml-[92.59%]" />
-                                </div>
-
-                                <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-5 mx-0 mb-0">
-                                    <div className="bg-[rgb(86,194,0)] rounded-[13px] w-[7.41%] relative grow min-h-[100px] mt-0.5 mr-0 mb-0 ml-[92.59%]" />
-                                </div>
+                            <div className="flex items-center relative mt-9 mx-0 mb-0">
+                                <div className="bg-[rgb(254,249,255)] rounded-[10px_0px_0px_10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[325px] min-h-[102px]" />
+                                <div className="bg-[rgb(150,3,26)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[26px] min-h-[102px]" />
                             </div>
                         </div>
                     </div>
