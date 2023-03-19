@@ -35,7 +35,7 @@ export default function ParsedData() {
 }
 
 
-export default function ParsedMarkerData() {
+function ParsedMarkerData() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
