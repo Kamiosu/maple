@@ -14,6 +14,7 @@ export default function Ranking(props) {
     const Item = ({ data }) => {
         return <div>{data}</div>;
     };
+    //Change
 
     const dataArray = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
 
