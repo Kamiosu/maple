@@ -1,7 +1,10 @@
-import React from 'react';
 import App from './App';
+import LocData from "./locations.csv"
+import Papa from 'papaparse';
+import React, { useState, useEffect } from 'react';
 
-function Card(name, location, severity) {
+function Card(itemData) {
+    console.log(itemData.data)
     return (
         <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
             <div className="bg-[rgb(150,3,26)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
@@ -9,14 +12,39 @@ function Card(name, location, severity) {
     );
 }
 // Create iterative function 
+function Address () { 
+    const [data, setData] = useState([]);
+
+    useEffect(() => { 
+        Papa.parse(LocData, {  
+            download: true, 
+            delimiter:',', 
+            complete: (results) => { 
+                let dataArray = [];
+                for (let i = 1; i < results.data.length; i++) {
+                    let result = results.data[i][1];
+                    let severity = results.data[i][2];
+                    let addressArray = result.split("\n"); // split the address by newline character
+                    let street = addressArray[0]; // first value is street address
+                    let cityProvincePostal = addressArray[1]; // second value is city, province, and postal code
+                    let distance = addressArray[2]; // third value is distance
+                    // add data to array 
+                    dataArray.push(street + " " + cityProvincePostal + " " + distance + " " + severity)
+                }
+                setData(dataArray);
+            }, 
+        });
+    }, []); 
+
+    // Use `data` state variable wherever needed in the component
+    // ...
+    return data;
+}
+
 
 export default function Ranking(props) {
-    const Item = ({ data }) => {
-        return <div>{data}</div>;
-    };
     //Change
-
-    const dataArray = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
+    const dataArray = Address();
 
     return (
         <div className="ranking flex flex-col bg-[rgb(56,56,81)] relative overflow-hidden">
@@ -29,33 +57,9 @@ export default function Ranking(props) {
                     <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
                         {
                             dataArray.map((itemData, index) => (
-                                <Item key={index} data={itemData} />
+                                <Card key={index} data={itemData} />
                             ))
                         }
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-
-                        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
-                            <div className="bg-[rgb(150,3,26)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
-                        </div>
-
-                        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
-                            <div className="bg-[rgb(197,0,31)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
-                        </div>
-
-                        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
-                            <div className="bg-[rgb(255,122,0)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
-                        </div>
-
-                        <div className="flex flex-col bg-[rgb(254,249,255)] rounded-[20px] relative mt-9 mx-0 mb-0">
-                            <div className="bg-[rgb(255,199,0)] rounded-[20px] w-[14.21%] relative grow min-h-[121px] mt-0 mr-0 mb-0 ml-[85.79%]" />
-                        </div>
                     </div>
                 </div>
             </div>
