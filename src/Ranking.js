@@ -68,57 +68,43 @@ function sortSeverity(d) {
 }
 
 // Create iterative function 
-// function Address() {
-//     const [data, setData] = useState([]);
-
-//     useEffect(() => {
-//         Papa.parse(LocData, {
-//             download: true,
-//             delimiter: ',',
-//             header: true,
-//             dynamicTyping: true,
-//             complete: function (results) {
-//                 const formattedData = results.data.map((row) => {
-//                     return {
-//                         name: row.name, // Use header names instead of index positions
-//                         address: row.address,
-//                         distance: row.distance_km,
-//                         severity: row.severity,
-//                     };
-//                 });
-//                 setData(formattedData);
-//             },
-//         });
-//     }, []);
-
-//     // Use `data` state variable wherever needed in the component
-//     // ...
-//     return data;
-// }
-
 
 export default function Ranking(props) {
     //Change
     let dataArray = ParsedData();
+    const [sortedData, setSortedData] = useState(dataArray);
+
+    const handleSortBySeverity = () => {
+        const sorted = sortSeverity([...dataArray]);
+        console.log('Working')
+        setSortedData(sorted);
+    };
+    
+    const handleSortByProximity = () => {
+        
+        console.log('Working')
+        setSortedData(dataArray);
+    };
 
     return (
         <div className="ranking flex flex-col bg-[#FFF09F] relative overflow-hidden">
             <div className="xl:w-[75.6%] lg:w-[88.8%] md:w-[91.36%] sm:w-[93.37%] xs:w-[94.95%] xxs:w-[96.16%] tn:w-[97.09%] flex flex-col w-[81.68%] relative grow mt-6 mx-auto mb-[123px]">
                 <h1 className="lg:text-[56px] lg:text-left md:text-[48px] sm:text-[40px] xs:text-[36px] xxs:text-[32px] tn:text-[28px] font-semibold text-[64px] leading-[1.2] font-Inter text-black tracking-[0px] w-[20.32%] relative my-0 mx-auto ">
-                    Ranking
+                    Rankings
                 </h1>
 
                 <div className="flex flex-col bg-gradient-to-r from-blue-500 to-green-500 text-white p-4 rounded-[30px] relative mt-[38px] mx-0 mb-0 overflow-auto max-h-[600px]">
-                    <div className='ml-20 mt-4'>
-                        <Button variant="dark" className='mx-2'>Sort by Vicinity</Button>
-                        <Button onClick={() => dataArray = sortSeverity(dataArray)} variant="dark" className='mx-2' >Sort by Severity</Button>
+                    <div className='ml-20 mt-4 '>
+                        <Button onClick={handleSortByProximity}  variant="dark" className='mx-2'>Sort by Vicinity</Button>
+                        <Button onClick={handleSortBySeverity} variant="dark" className='mx-2' >Sort by Severity</Button>
                     </div>
                     <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
                         {
-                            dataArray.map((dataArray, index) => (
-                                <Card key={index} data={dataArray} />
+                            sortedData.map((sortedData, index) => (
+                                <Card key={index} data={sortedData} />
                             ))
                         }
+
                     </div>
                 </div>
             </div>
