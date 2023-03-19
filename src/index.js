@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Frontpage from './Frontpage';
 import Ranking from './Ranking';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

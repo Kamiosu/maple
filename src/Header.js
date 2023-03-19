@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="App">
       <h1 className="text-3xl font-bold underline">
-       The Top of the Page!
+       About
       </h1>
     </div>
     
