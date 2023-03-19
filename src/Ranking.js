@@ -28,15 +28,38 @@ function Card(props) {
                     </h1>
                 </div>
             </div>
-
-            <div className="flex flex-col bg-[rgb(150,3,26)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
-                <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
-                    {severity}%
-                </h1>
-            </div>
+            {
+                severity > 80 ? (
+                    <div className="flex flex-col bg-[rgb(197,0,31)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+                        <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
+                            {severity}%
+                        </h1>
+                    </div>
+                ) : severity > 60 ? (
+                    <div className="flex flex-col bg-[rgb(255,122,0)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+                        <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
+                            {severity}%
+                        </h1>
+                    </div>
+                )
+                    : severity > 40 ? (
+                        <div className="flex flex-col bg-[rgb(255,199,0)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+                            <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
+                                {severity}%
+                            </h1>
+                        </div>
+                    ) : (
+                        <div className="flex flex-col bg-[rgb(86,194,0)] rounded-[0px_10px_10px_0px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.247)] relative basis-[121px]">
+                            <h1 className="lg:text-[36px] lg:text-left lg:mt-[39px] lg:mx-4 lg:mb-[30px] md:text-[32px] sm:text-[28px] sm:mt-[39px] sm:mx-3 sm:mb-[30px] xs:text-[24px] tn:text-[20px] xxs:mt-[39px] xxs:mx-2 xxs:mb-[30px] font-[837] text-[40px] leading-[1.17] font-Roboto text-white tracking-[0px] relative grow min-h-[52px] mt-[39px] mx-[21px] mb-[30px]">
+                                {severity}%
+                            </h1>
+                        </div>
+                    )
+            }
         </div>
     );
 }
+
 // Create iterative function 
 function Address() {
     const [data, setData] = useState([]);
@@ -49,7 +72,6 @@ function Address() {
             dynamicTyping: true,
             complete: function (results) {
                 const formattedData = results.data.map((row) => {
-
                     return {
                         name: row.name, // Use header names instead of index positions
                         address: row.address,
@@ -71,7 +93,7 @@ function Address() {
 export default function Ranking(props) {
     //Change
     const dataArray = Address();
-    console.log({dataArray})
+    console.log({ dataArray })
 
     return (
         <div className="ranking flex flex-col bg-[rgb(56,56,81)] relative overflow-hidden">
