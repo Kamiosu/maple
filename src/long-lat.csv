@@ -1,0 +1,234 @@
+﻿original_address,lat,lon,formatted,name,housenumber,street,postcode,district,suburb,city,county,state,state_code,country,country_code,confidence,confidence_city_level,confidence_street_level,attribution,attribution_license,attribution_url
+"405 Josephine St Unit D
+Wingham Ontario N0G 2W0",43.89097388,-81.30940924666666,"405 Josephine Street, North Huron, ON N0G 2W0, Canada",,405,Josephine Street,N0G 2W0,,,North Huron,Huron County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"6 May St
+Walkerton Ontario N0G 2V0",44.13323993333333,-81.15769908333334,"6 May Street, Brockton, ON N0G 2V0, Canada",,6,May Street,N0G 2V0,,,Brockton,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"711 10th Ave 
+Hanover Ontario N4N 2P7",44.1470241,-81.0250961,"10th Avenue, Hanover, ON N4N 2N5, Canada",10th Avenue,,10th Avenue,N4N 2N5,,,Hanover,Grey County,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"614 Barnes Ave
+Port Elgin Ontario N0H 2C0",44.42473806363636,-81.39709164545454,"614 Barnes Avenue, Port Elgin, ON N0H 2C1, Canada",,614,Barnes Avenue,N0H 2C1,,,Port Elgin,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"515 Goderich St
+Port Elgin ON N0H 2C0",44.43367411875,-81.390641525,"515 Goderich Street, Port Elgin, ON N0H 2C7, Canada",,515,Goderich Street,N0H 2C7,,,Port Elgin,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"55 Healey Road
+Bolton Ontario L7E 5A2",43.863337,-79.718316,"55 Healey Road, Bolton, ON L7E 4G1, Canada",,55,Healey Road,L7E 4G1,,,Bolton,Peel,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"52 Wellington Street West
+Alliston Ontario L9R 1T9",44.152656,-79.871471,"52 Wellington Street West, Alliston, ON L9R 1J3, Canada",,52,Wellington Street West,L9R 1J3,,,Alliston,Simcoe,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"365 14th Street West
+Owen Sound Ontario N4K 5P7",44.57383923232323,-80.95027297575758,"365 14th Street West, Owen Sound, ON N4K 3X8, Canada",,365,14th Street West,N4K 3X8,,,Owen Sound,Grey County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"576 Edward Street
+Box 1286
+Wiarton ON N0H2T0",44.737088,-81.13165727,"576 Edward Street, Wiarton, ON N0H 2T0, Canada",,576,Edward Street,N0H 2T0,,,Wiarton,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"6 May St
+Walkerton Ontairo N0G 2V0",,,,,,,,,,,,,,,,,,,,,
+"581 12th Street
+Hanover Ontario N4N 1W5
+",44.15559241333333,-81.01802792,"581 12th Street, Hanover, ON N4N 1R7, Canada",,581,12th Street,N4N 1R7,,,Hanover,Grey County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"3 Commerce Road
+Orangeville Ontario
+L9W3X5
+",43.9122669,-80.1077074,"3 Commerce Road, Orangeville, ON L9W 1S8, Canada",,3,Commerce Road,L9W 1S8,,,Orangeville,Dufferin County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"614 Barnes Ave
+Port Elgin Ontario N0H 2C0
+1",44.42473806363636,-81.39709164545454,"614 Barnes Avenue, Port Elgin, ON N0H 2C1, Canada",,614,Barnes Avenue,N0H 2C1,,,Port Elgin,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"515 Goderich St
+Port Elgin ON N0H 2C0
+",44.43367411875,-81.390641525,"515 Goderich Street, Port Elgin, ON N0H 2C7, Canada",,515,Goderich Street,N0H 2C7,,,Port Elgin,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"55 Healey Road
+Bolton Ontario L7E 5A2
+",43.863337,-79.718316,"55 Healey Road, Bolton, ON L7E 4G1, Canada",,55,Healey Road,L7E 4G1,,,Bolton,Peel,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"52 Wellington Street West
+Alliston Ontario L9R 1T9
+",44.152656,-79.871471,"52 Wellington Street West, Alliston, ON L9R 1J3, Canada",,52,Wellington Street West,L9R 1J3,,,Alliston,Simcoe,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"365 14th Street West
+Owen Sound Ontario N4K 5P7
+",44.57383923232323,-80.95027297575758,"365 14th Street West, Owen Sound, ON N4K 3X8, Canada",,365,14th Street West,N4K 3X8,,,Owen Sound,Grey County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"576 Edward Street
+Wiarton Ontario N0H 2T0
+",44.737088,-81.13165727,"576 Edward Street, Wiarton, ON N0H 2T0, Canada",,576,Edward Street,N0H 2T0,,,Wiarton,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"576 Edward Street
+Box 1286
+Wiarton ON N0H2T0
+",44.737088,-81.13165727,"576 Edward Street, Wiarton, ON N0H 2T0, Canada",,576,Edward Street,N0H 2T0,,,Wiarton,Bruce County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"350 Industrial Parkway South
+Aurora Ontario L4G 3V7
+",43.9854878,-79.45508550341856,"350 Industrial Parkway South, Aurora, ON L4G 3V6, Canada",,350,Industrial Parkway South,L4G 3V6,,,Aurora,York Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"34 Trowbridge St W
+Meaford Ontario N4L 1A5
+",44.6066505,-80.5927572,"34 Trowbridge Street, Meaford, ON N4L 1A5, Canada",,34,Trowbridge Street,N4L 1A5,,,Meaford,Grey,Ontario,ON,Canada,ca,0.9,1,0.9,,,
+"123 Moore Street
+Bradford Ontario L3Z 2B6",44.11737177142857,-79.56708978571429,"123 Moore Street, Bradford West Gwillimbury, ON L3Z 1L9, Canada",,123,Moore Street,L3Z 1L9,,,Bradford West Gwillimbury,Simcoe County,Ontario,ON,Canada,ca,0.81,0.81,0.81,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"162 Ste. Marie St.
+Collingwood Ontario L9Y 3K2",44.499238,-80.215556,"162 Ste Marie Street, Collingwood, ON L9Y 3K2, Canada",,162,Ste Marie Street,L9Y 3K2,,,Collingwood,,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"1251 Gorham St
+Unit 7-8-9
+Newmarket Ontario L3Y 8Y6",44.058832824209965,-79.42199801596365,"1251 Gorham Street, Newmarket, ON L3Y 7B4, Canada",,1251,Gorham Street,L3Y 7B4,,,Newmarket,York Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"818 Mosley Street
+Unit  2
+Wasaga Beach Ontario L0M 1S0",44.502232,-80.040796,"818 Mosley Street, Wasaga Beach, ON L0M 1S0, Canada",,818,Mosley Street,L0M 1S0,,,Wasaga Beach,,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"371 Marwood Dr.
+Oshawa Ontario L1H 7P8",43.874949,-78.82852493986545,"371 Marwood Drive, Oshawa, ON L1H 3X1, Canada",,371,Marwood Drive,L1H 3X1,,,Oshawa,Durham Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"42 Anne St South
+Barrie ON L4M 2C9",44.379562324999995,-79.70285717499999,"42 Anne Street South, Barrie, ON L4N 2G5, Canada",,42,Anne Street South,L4N 2G5,,,Barrie,Central Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"20849 Dalton Rd
+Sutton Ontario L0E 1R0",44.306267500000004,-79.3626483370222,"The Link, 20849 Dalton Road, Sutton, ON L0E 1L0, Canada",The Link,20849,Dalton Road,L0E 1L0,Jackson's Point,Sutton West,Sutton,York Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"279 King Ave E.
+Newcastle Ontario L1B 1H4",43.91871924178083,-78.5830843239726,"279 King Avenue East, Clarington, ON L1B 1H4, Canada",,279,King Avenue East,L1B 1H4,,,Clarington,Durham Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"523 Simcoe Street
+Beaverton Ontario L0K 1A0",44.4278783,-79.1485263,"523 Simcoe Street, Brock, ON L0K 1A0, Canada",,523,Simcoe Street,L0K 1A0,,,Brock,Durham Region,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"95 Dufferin St
+Orillia Ontario L3V 5S9",44.60310664210527,-79.42385069473684,"95 Dufferin Street, Orillia, ON L3V 2Y9, Canada",,95,Dufferin Street,L3V 2Y9,,,Orillia,Orillia,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"600 William Street
+Cobourg Ontario K9A 3A5",43.96604565003748,-78.18444896091148,"600 William Street, Cobourg, ON K9A 3A4, Canada",,600,William Street,K9A 3A4,,,Cobourg,Northumberland County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"700 D'arcy Street
+Building #19
+Cobourg Ontario K9A 5T3",43.972775813495936,-78.16029262139132,"700 d'Arcy Street, Cobourg, ON K9A 0H6, Canada",,700,d'Arcy Street,K9A 0H6,,,Cobourg,Northumberland County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"555 Dominion Avenue
+Midland Ontario L4R 4K8",44.74974266666667,-79.88845983333334,"555 Dominion Avenue, Midland, ON L4R 1P8, Canada",,555,Dominion Avenue,L4R 1P8,,Downtown Midland,Midland,Simcoe County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"164 Needham Street
+Lindsay Ontario K9V 5R7",44.3693917,-78.7275535,"164 Needham Street, Kawartha Lakes, ON K9V 5J1, Canada",,164,Needham Street,K9V 5J1,,,Kawartha Lakes,Central Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"665 Neal Drive
+Peterborough Ontario K9J 6X7",44.27770326455711,-78.29682921900888,"665 Neal Drive, Peterborough, ON K9J 6X7, Canada",,665,Neal Drive,K9J 6X7,,,Peterborough,Central Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"55 Main St
+Bobcaygeon Ontario K0M 1A0",44.540414549999994,-78.54624435,"55 Main Street, Kawartha Lakes, ON K0M 1A0, Canada",,55,Main Street,K0M 1A0,,,Kawartha Lakes,Central Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"60 Main St
+Warkworth Ontario K0K 3K0
+
+",44.20056484,-77.88434378666668,"60 Main Street, Trent Hills, ON K0K 3K0, Canada",,60,Main Street,K0K 3K0,,,Trent Hills,Northumberland County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"3 Albert St. W.
+Hastings Ontario K0L 1Y0",44.3109916,-77.9586421,"3 Albert Street West, Trent Hills, ON K0L 1Y0, Canada",,3,Albert Street West,K0L 1Y0,,,Trent Hills,Northumberland County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"456 Manitoba Street
+Bracebridge Ontario P1L 1W1",45.052916,-79.326514,"456 Manitoba Street, Bracebridge, ON P1L 1W1, Canada",,456,Manitoba Street,P1L 1W1,,,Bracebridge,Muskoka,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"30 Pelham Street
+Suite 2
+Trenton Ontario K8V 5A7",44.1045801,-77.5845154,"30 Pelham Street, Quinte West, ON K8V 5G9, Canada",,30,Pelham Street,K8V 5G9,,,Quinte West,Central Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"68 Doxsee Ave Rear
+Campbellford Ontario K0L 1L0",44.3085912,-77.798084,"Campbellford, Trent Hills, ON K0L 1L0, Canada",Campbellford,,,K0L 1L0,,,Trent Hills,Northumberland County,Ontario,ON,Canada,ca,0.25,1,,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"25 Wallbridge Cres.
+Belleville Ontario K8P 1Z3
+
+",44.16880203615048,-77.3932556289586,"25 Wallbridge Crescent, Belleville, ON K8P 3B7, Canada",,25,Wallbridge Crescent,K8P 3B7,,,Belleville,Belleville,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"25 Wallbridge Cres
+Belleville Ontario K8P 1Z3",44.16880203615048,-77.3932556289586,"25 Wallbridge Crescent, Belleville, ON K8P 3B7, Canada",,25,Wallbridge Crescent,K8P 3B7,,,Belleville,Belleville,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"24 Newcastle Street
+Minden Ontario K0M 2K0",44.92527292857143,-78.7211208857143,"24 Newcastle Street, Minden Hills, ON K0M 2K0, Canada",,24,Newcastle Street,K0M 2K0,,,Minden Hills,Haliburton County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"4 Mary Street East
+Huntsville Ontario P1H 1W4",45.324861,-79.218891,"6 Mary Street East, Huntsville, ON P1H 1W4, Canada",,6,Mary Street East,P1H 1W4,,,Huntsville,Muskoka,Ontario,ON,Canada,ca,0.7,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"93 James Street
+Parry Sound Ontario P2A 1T7",45.346602733333334,-80.03358613333333,"93 James Street, Parry Sound, ON P2A 1T6, Canada",,93,James Street,P2A 1T6,,,Parry Sound,Parry Sound District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"82 Richard St.
+Napanee Ontario K7R 2T2",44.244270560000004,-76.95504828,"82 Richard Street, Greater Napanee, ON K7R 2J9, Canada",,82,Richard Street,K7R 2J9,,,Greater Napanee,Lennox and Addington County,Ontario,ON,Canada,ca,0.9,0.9,0.9,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"2778 Monck Rd
+Cardiff ON K0L 1M0",44.99423221183638,-78.01550332161268,"2778 Monck Road, Highlands East, ON K0L 1M0, Canada",,2778,Monck Road,K0L 1M0,,,Highlands East,Haliburton County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"150 Huston Street
+Burk's Falls, Ontario P0A 1C0",45.61715743430239,-79.40483167788172,"150 Huston Street, Burk's Falls, ON P0A 1C0, Canada",,150,Huston Street,P0A 1C0,,,Burk's Falls,Parry Sound District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"2 Madawaska Street
+Bancroft Ontario K0L 1C0",45.0611488,-77.8573124,"2 Madawaska Street, Bancroft, ON K7S 2E4, Canada",,2,Madawaska Street,K7S 2E4,,,Bancroft,Hastings County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"2249 Loop Road
+Wilberforce Ontario K0L 3C0",45.0368755,-78.222743,"Loop Road, Highlands East, ON K0L 3C0, Canada",Loop Road,,Loop Road,K0L 3C0,,,Highlands East,Haliburton County,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"4295 Stagecoach Road
+Sydenham Ontario K0H 2T0
+",44.404844,-76.596724,"4295 Stage Coach Road, South Frontenac, ON K0H 2T0, Canada",,4295,Stage Coach Road,K0H 2T0,,,South Frontenac,Frontenac,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"140, Hickson Ave
+Kingston Ontario K7K 2N6
+",44.252548,-76.489012,"140 Hickson Avenue, Kingston, ON K7K 2N6, Canada",,140,Hickson Avenue,K7K 2N6,,,Kingston,Frontenac,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"Hunter Street
+South River Ontario P0A 1X0
+",45.8406638,-79.3777394,"Hunter Street, South River, ON P0A 1X0, Canada",Hunter Street,,Hunter Street,P0A 1X0,,,South River,Parry Sound District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"14153 Hwy 38
+Sharbot Lake Ontario K0H 2P0
+",44.7706987,-76.6901144,"Sharbot Lake, Central Frontenac, ON K0H 2P0, Canada",Sharbot Lake,,,K0H 2P0,,,Central Frontenac,Frontenac County,Ontario,ON,Canada,ca,0.25,1,,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"497 King St E
+Gananoque Ontario K7G 1G9
+",44.33437437272727,-76.1547770090909,"497 King Street East, Gananoque, ON K7G 1G2, Canada",,497,King Street East,K7G 1G2,,,Gananoque,Gananoque,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"116 Bay St
+Seeleys Bay Ontario K0H 2N0
+",44.475756583333336,-76.23658985,"116 Bay Street, Leeds and the Thousand Islands, ON K0H 2N0, Canada",,116,Bay Street,K0H 2N0,,,Leeds and the Thousand Islands,Leeds and Grenville Counties,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"8 Martin Street
+Barry's Bay Ontario K0J 1B0
+",45.4887103,-77.6804438,"Martin Street, Madawaska Valley, ON K0J 1B0, Canada",Martin Street,,Martin Street,K0J 1B0,,,Madawaska Valley,Renfrew County,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"190 Gore St. E
+Perth Ontario K7H 1K3
+",44.89459195714286,-76.24328122857143,"190 Gore Street East, Perth, ON K7H 1K7, Canada",,190,Gore Street East,K7H 1K7,,,Perth,Lanark County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"115 Clarence Street
+Lanark Ontario K0G 1K0
+",45.017686181818185,-76.36602544545455,"115 Clarence Street, Lanark Highlands, ON K0G 1K0, Canada",,115,Clarence Street,K0G 1K0,,,Lanark Highlands,Lanark County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"1016 Fisher Street
+North Bay Ontario P1B 2G4
+",46.3116,-79.449027,"1180 Fisher Street, North Bay, ON P1B 2G9, Canada",,1180,Fisher Street,P1B 2G9,,,North Bay,Nipissing,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"P.O. Box 522
+Brockville ON K6V 5V7
+
+",44.600724,-75.697724,"Brockville, ON K6V 5V7, Canada",,,,K6V 5V7,,,Brockville,Leeds and Grenville,Ontario,ON,Canada,ca,1,1,,,,https://www.whosonfirst.org/docs/licenses/
+"58 Buell St
+Brockville Ontario K6V 4Y2
+",44.590369,-75.688064,"58 Buell Street, Brockville, ON K6V 4Y2, Canada",,58,Buell Street,K6V 4Y2,,,Brockville,Leeds and Grenville,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"84 Mill St
+Carleton Place Ontario K7C 1T5
+
+",45.1425705,-76.1429243,"84 Mill Street, Carleton Place, ON K7C 2V6, Canada",,84,Mill Street,K7C 2V6,,,Carleton Place,Lanark County,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"165 John St
+Eganville Ontario K0J 1T0
+
+",45.5372837,-77.0977672,"John Street, Bonnechere Valley, ON K0J 1T0, Canada",John Street,,John Street,K0J 1T0,,,Bonnechere Valley,Renfrew County,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"93 Russell Street East
+Smiths Falls Ontario K7A 1G8
+
+",44.9035667,-76.0155268,"93 Russell Street East, Smiths Falls, ON K7A 1G7, Canada",,93,Russell Street East,K7A 1G7,,,Smiths Falls,Eastern Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"136 Henry Street West
+Prescott Ontario K0E 1T0
+
+",44.71081018163265,-75.51446075510204,"136 Henry Street West, Prescott, ON K0E 1T0, Canada",,136,Henry Street West,K0E 1T0,,,Prescott,Prescott,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"1105 Webbwood Dr
+Greater Sudbury Ontario P3C 3B6
+
+",46.471895149999995,-81.02871343572986,"1105 Webbwood Drive, Greater Sudbury, ON P3C 3B6, Canada",,1105,Webbwood Drive,P3C 3B6,,Lorne Square,Greater Sudbury,Sudbury District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"420 Hurdman St
+Mattawa Ontario P0H 1V0
+
+",46.314071,-78.7036148,"420 Hurdman Street, Mattawa, ON P0H 1V0, Canada",,420,Hurdman Street,P0H 1V0,,,Mattawa,Nipissing,Ontario,ON,Canada,ca,1,1,1,,,
+"8 Argyle St
+Renfrew Ontario K7V 1T3
+
+",45.473953,-76.688568,"8 Argyle Street South, Renfrew, ON K7V 1T3, Canada",,8,Argyle Street South,K7V 1T3,,,Renfrew,Renfrew,Ontario,ON,Canada,ca,0.7,1,0.7,© OpenAddresses contributors,BSD-3-Clause License,
+"340 Legget Drive
+Door #46
+Kanata Ontario K2K 1Y6
+",45.3398693,-75.9083927,"L-SPARK, 340 Legget Drive, Ottawa, ON K2K 2W7, Canada",L-SPARK,340,Legget Drive,K2K 2W7,Kanata North,Kanata,Ottawa,Eastern Ontario,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"295 First Ave
+Pembroke Ontario K8A 5A8
+",45.82082,-77.1367183,"First Avenue, Pembroke, ON K8A 4Z9, Canada",First Avenue,,First Avenue,K8A 4Z9,,,Pembroke,Pembroke,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"10619 Main St
+South Mountain Ontario K0E 1W0
+",44.991025557142855,-75.45004512857142,"10619 Main Street, North Dundas, ON K0E 1W0, Canada",,10619,Main Street,K0E 1W0,,,North Dundas,"Stormont, Dundas and Glengarry Counties",Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"1317 Michael Street
+Gloucester Ontario K1B 3M9
+
+
+",45.419511,-75.630217,"1317 Michael Street, (Old) Ottawa, ON K1B 3R3, Canada",,1317,Michael Street,K1B 3R3,Eastway Gardens,Gloucester,(Old) Ottawa,Ottawa,Ontario,ON,Canada,ca,1,1,1,© OpenAddresses contributors,BSD-3-Clause License,
+"497 May Street
+Winchester Ontario K0C 2K0
+",45.08895934545455,-75.35017594545454,"497 May Street, North Dundas, ON K0C 2K0, Canada",,497,May Street,K0C 2K0,,,North Dundas,"Stormont, Dundas and Glengarry Counties",Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"37 Rue Bombardier
+Gatineau Quebec J8R 0G4
+
+",45.51571195,-75.57217051779666,"Moisson Outaouais, 37 Rue Bombardier, Gatineau, QC J8R 0G5, Canada",Moisson Outaouais,37,Rue Bombardier,J8R 0G5,,Gatineau,Gatineau,,Quebec,QC,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"22 Earl Street
+Cobalt Ontario P0J 1C0
+
+
+",47.3962288,-79.6856668,"Cobalt, ON, Canada",,,,,,,Cobalt,Timiskaming District,Ontario,ON,Canada,ca,0.25,1,,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"78 Elgin St
+Sault Ste. Marie ON P6A 2Y5
+",46.51173638,-84.33424838,"78 Elgin Street, Sault Ste. Marie, ON P6A 1X1, Canada",,78,Elgin Street,P6A 1X1,,,Sault Ste. Marie,Algoma District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"29 Columbia Walk
+Elliot Lake Ontario P5A 1Y6
+",46.3842738,-82.6467598,"Columbia Walk, Elliot Lake, ON P5A 1Y2, Canada",Columbia Walk,,Columbia Walk,P5A 1Y2,,,Elliot Lake,Algoma District,Ontario,ON,Canada,ca,0.5,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"27 Forest Street
+Mindemoya Ontario P0P 1S0
+",45.731366547058826,-82.16204747647059,"27 Forest Street, Central Manitoulin, ON P0P 1S0, Canada",,27,Forest Street,P0P 1S0,,,Central Manitoulin,Manitoulin District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"65 Youngfox Road
+Blind River Ontario P0R 1B0
+",46.1861886,-82.9611324,"65 Youngfox Road, Blind River, ON P0R 1B0, Canada",,65,Youngfox Road,P0R 1B0,,,Blind River,Algoma District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
+"6 Sylvanite Ave
+Kirkland Lake Ontario P2N 3M4
+",48.1559249,-80.0253706,"6 Sylvanite Avenue, Kirkland Lake, ON P2N 3J5, Canada",,6,Sylvanite Avenue,P2N 3J5,,,Kirkland Lake,Timiskaming District,Ontario,ON,Canada,ca,1,1,1,© OpenStreetMap contributors,Open Database License,https://www.openstreetmap.org/copyright
