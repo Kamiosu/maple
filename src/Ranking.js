@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App';
 
 export default function Ranking(props) {
   return (
@@ -14,13 +15,13 @@ export default function Ranking(props) {
                 <div className="lg:mt-0 lg:mr-0 lg:mb-0 lg:ml-8 md:mt-0 md:mr-0 md:mb-0 md:ml-7 sm:mt-0 sm:mr-0 sm:mb-0 sm:ml-5 xxs:mt-0 xxs:mr-0 xxs:mb-0 xxs:ml-4 flex items-center relative grow mt-0 mr-0 mb-0 ml-[39px]">
                   <div className="flex flex-col relative basis-[206px] mt-[13px] mx-0 mb-3">
                     <h3 className="lg:text-[16px] lg:text-left font-semibold text-[20px] leading-[1.2] font-Inter text-black tracking-[0px] relative min-h-[32px]">
-                      Organization Name
+                      Street
                     </h3>
                     <h3 className="lg:text-[16px] lg:text-left font-semibold text-[20px] leading-[1.2] font-Inter text-black tracking-[0px] relative">
-                      Location
+                      City
                     </h3>
                     <h3 className="lg:text-[16px] lg:text-left font-semibold text-[20px] leading-[1.2] font-Inter text-black tracking-[0px] relative min-h-[32px] mt-2 mx-0 mb-0">
-                      Website{' '}
+                      Distance
                     </h3>
                   </div>
 

@@ -4,29 +4,17 @@ import Frontpage from './Frontpage';
 import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
 import LocData from "./locations.csv"
+import Ranking from "./Ranking"
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <Address/>
+      <main>
+        <Ranking />
+        <Address/>
+      </main>
+      
     </div>
   );
 }
@@ -41,12 +29,11 @@ function Address () {
       complete: (results) => { 
         for (let i = 1; i < results.data.length; i++) {
           let result = results.data[i][1];
+          let severity = results.data[i][2];
           let addressArray = result.split("\n"); // split the address by newline character
           let street = addressArray[0]; // first value is street address
           let cityProvincePostal = addressArray[1]; // second value is city, province, and postal code
           let distance = addressArray[2]; // third value is distance
-           
-          street // log the three separate values
         }
         
       }, 
@@ -54,14 +41,15 @@ function Address () {
 
   }, []); 
   return ( 
-    <div> 
-      {data.map((row) => ( 
-        <div> 
-          <p>{row.Location}</p> 
-          <p>{row.Rank}</p> 
-        </div> 
-      ))} 
-    </div> 
+    // return the street, city, province, postal code, distance 
+      
+    <div className='App'>
+      <main>
+
+      </main>
+    </div>
+
+    
   );
 }
 
