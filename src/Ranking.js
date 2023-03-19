@@ -62,6 +62,11 @@ function Card(props) {
     );
 }
 
+function sortSeverity(d) {
+    const sortedData = d.sort((a, b) => b.severity - a.severity); // sort the data by severity value
+    return sortedData;
+}
+
 // Create iterative function 
 // function Address() {
 //     const [data, setData] = useState([]);
@@ -95,7 +100,6 @@ function Card(props) {
 export default function Ranking(props) {
     //Change
     const dataArray = ParsedData();
-    console.log({ dataArray })
 
     return (
         <div className="ranking flex flex-col bg-[#FFF09F] relative overflow-hidden">
@@ -107,7 +111,7 @@ export default function Ranking(props) {
                 <div className="flex flex-col bg-[rgb(217,217,217)] rounded-[30px] relative mt-[38px] mx-0 mb-0 overflow-auto max-h-[600px]">
                     <div className='ml-20 mt-4'>
                         <Button variant="dark" className='mx-2'>Sort by Vicinity</Button>
-                        <Button variant="dark" className='mx-2' >Sort by Severity</Button>
+                        <Button onClick={() => dataArray = sortSeverity(dataArray)} variant="dark" className='mx-2' >Sort by Severity</Button>
                     </div>
                     <div className="lg:w-[92.34%] md:w-[94.14%] sm:w-[95.54%] xs:w-[96.62%] xxs:w-[97.44%] tn:w-[98.07%] flex flex-col w-[90.04%] relative grow mt-[50px] mx-auto mb-[74px]">
 
