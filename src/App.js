@@ -39,15 +39,17 @@ function Address () {
       download: true, 
       delimiter:',', 
       complete: (results) => { 
-        // for loop with length of results.data
-         for (let i = 0; i < results.data.length; i++) {
+        for (let i = 1; i < results.data.length; i++) {
           let result = results.data[i][1];
+          let addressArray = result.split("\n"); // split the address by newline character
+          let street = addressArray[0]; // first value is street address
+          let cityProvincePostal = addressArray[1]; // second value is city, province, and postal code
+          let distance = addressArray[2]; // third value is distance
+           
+          street // log the three separate values
         }
-
         
       }, 
-
-      
     });
 
   }, []); 
