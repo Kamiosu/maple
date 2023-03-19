@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import Frontpage from './Frontpage';
 import Papa from 'papaparse';
 import React, { useState, useEffect } from 'react';
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Ranking />
         <Address/>
       </main>
       
@@ -40,6 +38,7 @@ function Address () {
     });
 
   }, []); 
+
   return ( 
     // return the street, city, province, postal code, distance 
       
