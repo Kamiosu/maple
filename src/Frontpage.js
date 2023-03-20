@@ -39,7 +39,7 @@ function Map() {
     return (
         <LoadScript googleMapsApiKey="AIzaSyCk6K7fD5wkj7XOwGDi0HA-tE1GlNWuCPw">
             <GoogleMap mapContainerStyle={mapStyles} zoom={10} center={defaultCenter} >
-
+                    <Marker position={defaultCenter}/>
                 {   
                     
                     longLatData.map((cords, index) => (
